@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    background-image: linear-gradient( rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7)),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100%;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    margin-top: 60px;
+
+}
+.bannerhead{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+.form-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    max-width: 100%;
+    background-color:rgba(28, 28, 49,0.8);
+    color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    border-radius:4px;
+}
+.text{
+   width: 100%; 
+   height: 30px;
+   padding: 10px;
+}
+button{
+    width: 100%;
+    background-color: rgb(8, 91, 8);
+    color: aliceblue;
+    margin-top:15px;
+    line-height: 30px;
+    font-size:20px
+    
+}
+
+.nametag,.emailtag,.agetag,.labeltag,.radiotag,.selection,.checkbox,.textarea{
+    margin: 10px;
+    line-height: 30px;
+    font-size:20px
+    
+}
+button:hover{
+    background-color: rgb(6, 170, 6);
+    color: brown;
+}
+.button{
+    margin:10px;
+}
+textarea{
+    width: 100%;
+}
